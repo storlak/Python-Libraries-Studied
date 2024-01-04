@@ -7,9 +7,9 @@
 4. [Random Module](#random)
 
 ## Introduction
-This file contains a short explanation with the link of the Python library.
 I've studied these libraries & modules during learning proceedure of Python.
 
+This file contains a short explanation, pip install and  a link of the Python library & module. It includes 3 examples for each library. Examples are the functions that i've used in Py-Learn Excercises.
 
 ### String Module
 - Provides common string operations. A collection of string constants.
