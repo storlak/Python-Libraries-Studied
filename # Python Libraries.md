@@ -16,7 +16,7 @@ This file contains a short explanation, pip install and  a link of the Python li
 - To import "import string"
 - Pip Install: pip install strings
 - [String Module Documentation](https://docs.python.org/3/library/string.html)
-- 🔻STRING Examples:
+- 🔻STRING Functions i've used:
     - string.digits: Output: 0123456789
     - string.ascii_uppercase: Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ
     - random.choice: chooses a random element from a list
@@ -26,7 +26,7 @@ This file contains a short explanation, pip install and  a link of the Python li
 - To import "import statistics"
 - Pip Install: pip install statistics
 - [Statistics Module Documentation](https://docs.python.org/3/library/statistics.html#module-statistics)
-- 🔻STATISTICS Examples:
+- 🔻STATISTICS functions i've used:
     - fmean: median of float numbers
     - mean: median of integer numbers
     - random.choice: chooses a random element from a list
@@ -37,10 +37,17 @@ This file contains a short explanation, pip install and  a link of the Python li
 - To import "import random"
 - Pip Install: pip install random
 - [Random Module Documentation](https://docs.python.org/3/library/random.html)
-- 🔻RANDOM Examples: 
+- 🔻RANDOM functions i've used: 
     - random.randit: generate a random integer
     - random.shuffle: shuffles the list randomly
     - random.choice: chooses a random element from a list
     
-
+### Time Module
+- Time module provides time related functions.
+- To import "import time"
+- Pip install: pip install TIME-python
+- [Time Module Documentation](https://docs.python.org/3/library/time.html)
+- 🔻TIME functions i've used:
+    - time.sleep(): stops execution for the given number of seconds
+    - 
 
