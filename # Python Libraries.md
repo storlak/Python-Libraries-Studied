@@ -5,6 +5,7 @@
 2. [String Module](#String)
 3. [Statistics Module](#statistics)
 4. [Random Module](#random)
+5. [Time Module](#time-module)
 
 ## Introduction
 I've studied these libraries & modules during learning proceedure of Python.
@@ -38,9 +39,10 @@ This file contains a short explanation, pip install and  a link of the Python li
 - Pip Install: pip install random
 - [Random Module Documentation](https://docs.python.org/3/library/random.html)
 - 🔻RANDOM functions i've used: 
-    - random.randit: generate a random integer
-    - random.shuffle: shuffles the list randomly
-    - random.choice: chooses a random element from a list
+    - random.randit(): generate a random integer
+    - random.random(): generates a random float num between 0-1
+    - random.choice(): chooses a random element from a list
+    - random.shuffle(): shuffles the list randomly
     
 ### Time Module
 - Time module provides time related functions.
