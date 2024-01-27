@@ -6,6 +6,7 @@
 3. [Statistics Module](#statistics)
 4. [Random Module](#random)
 5. [Time Module](#time-module)
+6. [Shutil Module](#shutil-module)
 
 ## Introduction
 I've studied these libraries & modules during learning proceedure of Python.
@@ -53,3 +54,11 @@ This file contains a short explanation, pip install and  a link of the Python li
     - time.sleep(): stops execution for the given number of seconds
     - 
 
+### Shutil Module
+- Shutil modeule offers copying, removing functions for files.
+- To import "import shutil"
+- Pip install pip install shutil
+- [Shutil Module Documentation](https://docs.python.org/3/library/shutil.html)
+- Shutil functions i've used:
+    - shutil.copy(): copies the source file or directory
+    - 
