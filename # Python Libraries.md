@@ -19,9 +19,9 @@ This file contains a short explanation, pip install and  a link of the Python li
 - Pip Install: pip install strings
 - [String Module Documentation](https://docs.python.org/3/library/string.html)
 - 🔻STRING Functions i've used:
-    - string.digits: Output: 0123456789
-    - string.ascii_uppercase: Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ
-    - random.choice: chooses a random element from a list
+    - string.digits: Output: 0123456789.
+    - string.ascii_uppercase: Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ.
+    - random.choice: chooses a random element from a list.
 
 ### Statistics Module
 - Mathematical statistics functions. Functions for calculating mathematical statistics.
@@ -29,9 +29,9 @@ This file contains a short explanation, pip install and  a link of the Python li
 - Pip Install: pip install statistics
 - [Statistics Module Documentation](https://docs.python.org/3/library/statistics.html#module-statistics)
 - 🔻STATISTICS functions i've used:
-    - fmean: median of float numbers
-    - mean: median of integer numbers
-    - random.choice: chooses a random element from a list
+    - fmean: median of float numbers.
+    - mean: median of integer numbers.
+    - random.choice: chooses a random element from a list.
 
 
 ### Random Module
@@ -40,10 +40,10 @@ This file contains a short explanation, pip install and  a link of the Python li
 - Pip Install: pip install random
 - [Random Module Documentation](https://docs.python.org/3/library/random.html)
 - 🔻RANDOM functions i've used: 
-    - random.randit(): generate a random integer
-    - random.random(): generates a random float num between 0-1
-    - random.choice(): chooses a random element from a list
-    - random.shuffle(): shuffles the list randomly
+    - random.randit(): generate a random integer.
+    - random.random(): generates a random float num between 0-1.
+    - random.choice(): chooses a random element from a list.
+    - random.shuffle(): shuffles the list randomly.
     
 ### Time Module
 - Time module provides time related functions.
@@ -51,7 +51,7 @@ This file contains a short explanation, pip install and  a link of the Python li
 - Pip install: pip install TIME-python
 - [Time Module Documentation](https://docs.python.org/3/library/time.html)
 - 🔻TIME functions i've used:
-    - time.sleep(): stops execution for the given number of seconds
+    - time.sleep(): stops execution for the given number of seconds.
     - 
 
 ### Shutil Module
@@ -60,7 +60,8 @@ This file contains a short explanation, pip install and  a link of the Python li
 - Pip install: pip install shutil
 - [Shutil Module Documentation](https://docs.python.org/3/library/shutil.html)
 - Shutil functions i've used:
-    - shutil.copy(): copies the source file or directory
+    - shutil.copy(): copies the source file or directory.
+    - shutil.rmtree(path): deletes a directory containing files.
 
 ### OS.path Module
 - Os.path module has useful functions on pathnames.
