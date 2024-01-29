@@ -57,8 +57,19 @@ This file contains a short explanation, pip install and  a link of the Python li
 ### Shutil Module
 - Shutil modeule offers copying, removing functions for files.
 - To import "import shutil"
-- Pip install pip install shutil
+- Pip install: pip install shutil
 - [Shutil Module Documentation](https://docs.python.org/3/library/shutil.html)
 - Shutil functions i've used:
     - shutil.copy(): copies the source file or directory
-    - 
+
+### OS.path Module
+- Os.path module has useful functions on pathnames.
+- To import "import os"
+- pip install: pip install os
+- [OS.PATH Documentation](https://docs.python.org/3/library/os.path.html#module-os.path)
+- os.path functions that i've used:
+    - os.path.exists(): this checks if the named file exists on the given path .
+    - os.path.basename(path): extracts the file name without extenstion from a path.
+    - os.path.isfile:checks if a given path is a file.
+    - os.path.isdir: checks if a given path is a directory.
+    - os.path.getsize(path): returns the size of a file in bytes.
