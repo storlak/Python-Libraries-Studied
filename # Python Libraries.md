@@ -7,6 +7,7 @@
 4. [Random Module](#random)
 5. [Time Module](#time-module)
 6. [Shutil Module](#shutil-module)
+7. [CSV Module](#csv-module)
 
 ## Introduction
 I've studied these libraries & modules during learning proceedure of Python.
@@ -74,3 +75,16 @@ This file contains a short explanation, pip install and  a link of the Python li
     - os.path.isfile:checks if a given path is a file.
     - os.path.isdir: checks if a given path is a directory.
     - os.path.getsize(path): returns the size of a file in bytes.
+
+### CSV Module
+- CSV: most common format for spreads, excel sheets, comma sperated data.
+- CSV module implements classes to read and write tabular data in CSV format
+- To import: import csv
+- pip install: already included in Python
+- [CSV Modul](https://docs.python.org/3/library/csv.html)
+- csv functions that i've used:
+    - csv.reader(): is used to read from a CSV file row by row.
+    - csv.writer(): is used to write to a CSV file row by row.
+    - csv.DictReader() and csv.DictWriter(): are used when the CSV file has a header, allowing you to access data by column names.
+    - writerow() and writerows(): are used to write rows to a CSV file.
+    - writeheader(): is used to write the header row to a CSV file when using DictWriter.
