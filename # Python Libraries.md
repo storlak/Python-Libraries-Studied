@@ -8,6 +8,7 @@
 5. [Time Module](#time-module)
 6. [Shutil Module](#shutil-module)
 7. [CSV Module](#csv-module)
+8. [Datetime]()
 
 ## Introduction
 I've studied these libraries & modules during learning proceedure of Python.
@@ -34,7 +35,6 @@ This file contains a short explanation, pip install and  a link of the Python li
     - mean: median of integer numbers.
     - random.choice: chooses a random element from a list.
 
-
 ### Random Module
 - The random module in Python provides functions for generating random numbers.
 - To import "import random"
@@ -53,14 +53,14 @@ This file contains a short explanation, pip install and  a link of the Python li
 - [Time Module Documentation](https://docs.python.org/3/library/time.html)
 - 🔻TIME functions i've used:
     - time.sleep(): stops execution for the given number of seconds.
-    - 
+    - perf_counter():
 
 ### Shutil Module
 - Shutil modeule offers copying, removing functions for files.
 - To import "import shutil"
 - Pip install: pip install shutil
 - [Shutil Module Documentation](https://docs.python.org/3/library/shutil.html)
-- Shutil functions i've used:
+- 🔻Shutil functions i've used:
     - shutil.copy(): copies the source file or directory.
     - shutil.rmtree(path): deletes a directory containing files.
 
@@ -69,7 +69,7 @@ This file contains a short explanation, pip install and  a link of the Python li
 - To import "import os"
 - pip install: pip install os
 - [OS.PATH Documentation](https://docs.python.org/3/library/os.path.html#module-os.path)
-- os.path functions that i've used:
+- 🔻os.path functions that i've used:
     - os.path.exists(): this checks if the named file exists on the given path .
     - os.path.basename(path): extracts the file name without extenstion from a path.
     - os.path.isfile:checks if a given path is a file.
@@ -82,9 +82,11 @@ This file contains a short explanation, pip install and  a link of the Python li
 - To import: import csv
 - pip install: already included in Python
 - [CSV Modul](https://docs.python.org/3/library/csv.html)
-- csv functions that i've used:
+- 🔻csv functions that i've used:
     - csv.reader(): is used to read from a CSV file row by row.
     - csv.writer(): is used to write to a CSV file row by row.
     - csv.DictReader() and csv.DictWriter(): are used when the CSV file has a header, allowing you to access data by column names.
     - writerow() and writerows(): are used to write rows to a CSV file.
     - writeheader(): is used to write the header row to a CSV file when using DictWriter.
+
+### Datetime Module
