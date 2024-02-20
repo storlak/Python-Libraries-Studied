@@ -90,3 +90,13 @@ This file contains a short explanation, pip install and  a link of the Python li
     - writeheader(): is used to write the header row to a CSV file when using DictWriter.
 
 ### Datetime Module
+- Datetime module supplies classes to work with dates, time anda datetime.
+- To import: "import datetime"
+- pip install: alread included in Python
+- [Datetime Modul](https://docs.python.org/3/library/datetime.html)
+- 🔻Datetime functions that i've used:
+    - datetime:
+    - strftime:
+    - strptime
+    - fromisoformat:
+    - timedelta:
