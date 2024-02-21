@@ -22,8 +22,8 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
 - Pip Install: pip install strings
 - [String Module Documentation](https://docs.python.org/3/library/string.html)
 - 🔻STRING Functions i've used:
-    - string.digits: Output: 0123456789.
-    - string.ascii_uppercase: Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ.
+    - string.digits(): Output: 0123456789.
+    - string.ascii_uppercase(): Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ.
 
 ### Statistics Module
 - Mathematical statistics functions. Functions for calculating mathematical statistics.
@@ -31,8 +31,8 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
 - Pip Install: pip install statistics
 - [Statistics Module Documentation](https://docs.python.org/3/library/statistics.html#module-statistics)
 - 🔻STATISTICS functions i've used:
-    - fmean: median of float numbers.
-    - mean: median of integer numbers.
+    - fmean(): median of float numbers.
+    - mean(): median of integer numbers.
 
 ### Random Module
 - The random module in Python provides functions for generating random numbers.
@@ -73,8 +73,8 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
 - 🔻os.path functions that i've used:
     - os.path.exists(): this checks if the named file exists on the given path .
     - os.path.basename(path): extracts the file name without extenstion from a path.
-    - os.path.isfile:checks if a given path is a file.
-    - os.path.isdir: checks if a given path is a directory.
+    - os.path.isfile():checks if a given path is a file.
+    - os.path.isdir(): checks if a given path is a directory.
     - os.path.getsize(path): returns the size of a file in bytes.
 
 ### CSV Module
@@ -96,8 +96,8 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
 - pip install: already included in Python
 - [Datetime Modul](https://docs.python.org/3/library/datetime.html)
 - 🔻Datetime functions that i've used:
-    - datetime:
-    - strftime:
-    - strptime
-    - fromisoformat:
-    - timedelta:
+    - datetime():
+    - strftime():
+    - strptime():
+    - fromisoformat():
+    - timedelta():
