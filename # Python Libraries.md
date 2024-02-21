@@ -33,7 +33,6 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
 - 🔻STATISTICS functions i've used:
     - fmean: median of float numbers.
     - mean: median of integer numbers.
-    - random.choice: chooses a random element from a list.
 
 ### Random Module
 - The random module in Python provides functions for generating random numbers.
