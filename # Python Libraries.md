@@ -24,7 +24,6 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
 - 🔻STRING Functions i've used:
     - string.digits: Output: 0123456789.
     - string.ascii_uppercase: Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ.
-    - random.choice: chooses a random element from a list.
 
 ### Statistics Module
 - Mathematical statistics functions. Functions for calculating mathematical statistics.
