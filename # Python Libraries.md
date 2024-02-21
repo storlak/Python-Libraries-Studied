@@ -2,18 +2,19 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [String Module](#String)
-3. [Statistics Module](#statistics)
-4. [Random Module](#random)
+2. [String Module](#string-module)
+3. [Statistics Module](#statistics-module)
+4. [Random Module](#random-module)
 5. [Time Module](#time-module)
 6. [Shutil Module](#shutil-module)
 7. [CSV Module](#csv-module)
-8. [Datetime]()
+8. [Datetime](#datetime-module)
 
 ## Introduction
 I've studied these libraries & modules during learning proceedure of Python.
-
-This file contains a short explanation, pip install and  a link of the Python library & module. It includes 3 examples for each library. Examples are the functions that i've used in Py-Learn Excercises.
+This file contains a short explanation, pip install and  a link of the Python library & module. 
+It only includes functions for each library that i've used in Py-Learn Excercises.
+I tried to avoid the most common and well known modules like numpy, pandas etc.
 
 ### String Module
 - Provides common string operations. A collection of string constants.
@@ -44,7 +45,9 @@ This file contains a short explanation, pip install and  a link of the Python li
     - random.randit(): generate a random integer.
     - random.random(): generates a random float num between 0-1.
     - random.choice(): chooses a random element from a list.
+    - random.choices():random.choices(population, weights=None, k=1)
     - random.shuffle(): shuffles the list randomly.
+    - random.sample():picks random element from an iterable without replacement.
     
 ### Time Module
 - Time module provides time related functions.
@@ -53,7 +56,7 @@ This file contains a short explanation, pip install and  a link of the Python li
 - [Time Module Documentation](https://docs.python.org/3/library/time.html)
 - 🔻TIME functions i've used:
     - time.sleep(): stops execution for the given number of seconds.
-    - perf_counter():
+    - perf_counter():counts the time of a working proceedure- start, end
 
 ### Shutil Module
 - Shutil modeule offers copying, removing functions for files.
@@ -92,7 +95,7 @@ This file contains a short explanation, pip install and  a link of the Python li
 ### Datetime Module
 - Datetime module supplies classes to work with dates, time anda datetime.
 - To import: "import datetime"
-- pip install: alread included in Python
+- pip install: already included in Python
 - [Datetime Modul](https://docs.python.org/3/library/datetime.html)
 - 🔻Datetime functions that i've used:
     - datetime:
