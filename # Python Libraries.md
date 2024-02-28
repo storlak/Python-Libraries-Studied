@@ -9,14 +9,15 @@
 6. [Shutil Module](#shutil-module)
 7. [CSV Module](#csv-module)
 8. [Datetime](#datetime-module)
+9. [Math Module](#9-math-module)
 
 ## Introduction
 I've studied these libraries & modules during learning proceedure of Python.
-This file contains a short explanation, pip install and  a link of the Python library & module. 
-It only includes functions for each library that i've used in Py-Learn Excercises.
+This file contains a short explanation, pip install and a link of the Python library & module. 
+It only includes functions-methods for each library that i've used in Py-Learn Excercises.
 I tried to avoid the most common and well known modules like numpy, pandas etc.
 
-### String Module
+### 1. String Module
 - Provides common string operations. A collection of string constants.
 - To import "import string"
 - Pip Install: pip install strings
@@ -25,7 +26,7 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
     - string.digits(): Output: 0123456789.
     - string.ascii_uppercase(): Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ.
 
-### Statistics Module
+### 2. Statistics Module
 - Mathematical statistics functions. Functions for calculating mathematical statistics.
 - To import "import statistics"
 - Pip Install: pip install statistics
@@ -33,8 +34,10 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
 - 🔻STATISTICS functions i've used:
     - fmean(): median of float numbers.
     - mean(): median of integer numbers.
+    - mode(): the most occuring value.
+    - multimode(): the most occuring 2 vlues.
 
-### Random Module
+### 3. Random Module
 - The random module in Python provides functions for generating random numbers.
 - To import "import random"
 - Pip Install: pip install random
@@ -47,7 +50,7 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
     - random.shuffle(): shuffles the list randomly.
     - random.sample():picks random element from an iterable without replacement.
     
-### Time Module
+### 4. Time Module
 - Time module provides time related functions.
 - To import "import time"
 - Pip install: pip install TIME-python
@@ -56,7 +59,7 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
     - time.sleep(): stops execution for the given number of seconds.
     - perf_counter():counts the time of a working proceedure- start, end
 
-### Shutil Module
+### 5. Shutil Module
 - Shutil modeule offers copying, removing functions for files.
 - To import "import shutil"
 - Pip install: pip install shutil
@@ -65,7 +68,7 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
     - shutil.copy(): copies the source file or directory.
     - shutil.rmtree(path): deletes a directory containing files.
 
-### OS.path Module
+### 6. OS.path Module
 - Os.path module has useful functions on pathnames.
 - To import "import os"
 - pip install: pip install os
@@ -77,12 +80,12 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
     - os.path.isdir(): checks if a given path is a directory.
     - os.path.getsize(path): returns the size of a file in bytes.
 
-### CSV Module
+### 7. CSV Module
 - CSV: most common format for spreads, excel sheets, comma sperated data.
 - CSV module implements classes to read and write tabular data in CSV format
 - To import: import csv
 - pip install: already included in Python
-- [CSV Modul](https://docs.python.org/3/library/csv.html)
+- [CSV Module](https://docs.python.org/3/library/csv.html)
 - 🔻csv functions that i've used:
     - csv.reader(): is used to read from a CSV file row by row.
     - csv.writer(): is used to write to a CSV file row by row.
@@ -90,14 +93,31 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
     - writerow() and writerows(): are used to write rows to a CSV file.
     - writeheader(): is used to write the header row to a CSV file when using DictWriter.
 
-### Datetime Module
+### 8. Datetime Module
 - Datetime module supplies classes to work with dates, time anda datetime.
 - To import: "import datetime"
 - pip install: already included in Python
-- [Datetime Modul](https://docs.python.org/3/library/datetime.html)
+- [Datetime Module](https://docs.python.org/3/library/datetime.html)
 - 🔻Datetime functions that i've used:
-    - datetime():
-    - strftime():
-    - strptime():
-    - fromisoformat():
-    - timedelta():
+    - datetime():creates datetime objects
+    - datetime.now(): Returns the current local date and time.
+    - strftime():Returns a string representing the date and time, formatted according to the specified format.
+    - strptime():Parses a string representing a date and time according to a specified format.
+    - fromisoformat(): Returns a string representing the date and time in ISO 
+    - timedelta(): duration or difference between two dates or times.
+    - datetime.astimezone(tz=None): Converts the datetime object from one timezone to another.
+    - datetime.replace(tzinfo=tz): Replaces the timezone information of the datetime object.
+    - datetime.(): (year, month, day, hour, minute, second): returns the written data.
+
+### 9. Math Module
+- Math Module: provides a set of mathematical functions and constants for mathematical operations.
+- To import: "import math"
+- pip install: pip install math
+- [Math Module](https://docs.python.org/3/library/math.html)
+- 🔻Math functions that i've used:
+    - math.pow(x, y): Returns x raised to the power y
+    - math.sqrt(): square root of a number
+    - math.ceil(): ceils a number
+    - math.floor(): floors a number
+    - math.factorial(): factorial of a number
+    - math.gcd(): greatest common diviser
