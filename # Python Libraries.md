@@ -10,11 +10,12 @@
 7. [CSV Module](#csv-module)
 8. [Datetime](#datetime-module)
 9. [Math Module](#9-math-module)
+10. [Pytz Module](#9-pytz-module)
 
 ## Introduction
 I've studied these libraries & modules during learning proceedure of Python.
 This file contains a short explanation, pip install and a link of the Python library & module. 
-It only includes functions-methods for each library that i've used in Py-Learn Excercises.
+It only includes functions-methods for each library that i've used in PyLearn-Excercises.
 I tried to avoid the most common and well known modules like numpy, pandas etc.
 
 ### 1. String Module
@@ -121,3 +122,13 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
     - math.floor(): floors a number
     - math.factorial(): factorial of a number
     - math.gcd(): greatest common diviser
+
+### 9. Pytz Module
+- Pytz module: creates aware datetime obj with timezone. All Olson timzones supported.
+- To import: pip install "import Pytz
+- pip install: pip install pytz
+- [Pytz Module](https://pypi.org/project/pytz/)
+- 🔻Math functions that i've used:
+    - pytz.timezone(: gets tz info of an object.)
+
+
