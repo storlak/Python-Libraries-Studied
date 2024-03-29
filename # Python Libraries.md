@@ -10,7 +10,8 @@
 7. [CSV Module](#csv-module)
 8. [Datetime](#datetime-module)
 9. [Math Module](#9-math-module)
-10. [Pytz Module](#9-pytz-module)
+10. [Pytz Module](#10-pytz-module)
+11. [Pyshorteners Module]()
 
 ## Introduction
 I've studied these libraries & modules during learning proceedure of Python.
@@ -123,12 +124,22 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
     - math.factorial(): factorial of a number
     - math.gcd(): greatest common diviser
 
-### 9. Pytz Module
+### 10. Pytz Module
 - Pytz module: creates aware datetime obj with timezone. All Olson timzones supported.
 - To import: pip install "import Pytz
 - pip install: pip install pytz
 - [Pytz Module](https://pypi.org/project/pytz/)
 - 🔻Math functions that i've used:
     - pytz.timezone(: gets tz info of an object.)
+
+### 11. Pyshorteners Module
+- Pyshorteners module: URL shortening library. Some API's not working anymore.
+- To import: import pyshorteners
+- pip install: pip install pyshorteners
+- [pyshorteners Module](https://pypi.org/project/pyshorteners/)
+- 🔻Pyshorteners functions that i've used:
+    - pyshorteners.pyshorteners(): shortens URL
+
+
 
 
