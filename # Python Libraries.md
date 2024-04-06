@@ -11,7 +11,8 @@
 8. [Datetime](#datetime-module)
 9. [Math Module](#9-math-module)
 10. [Pytz Module](#10-pytz-module)
-11. [Pyshorteners Module]()
+11. [Pyshorteners Module](#11-pyshorteners-module)
+12. [Requests Library](#12-requests-module)
 
 ## Introduction
 I've studied these libraries & modules during learning proceedure of Python.
@@ -139,6 +140,15 @@ I tried to avoid the most common and well known modules like numpy, pandas etc.
 - [pyshorteners Module](https://pypi.org/project/pyshorteners/)
 - 🔻Pyshorteners functions that i've used:
     - pyshorteners.pyshorteners(): shortens URL
+
+### 12. Requests  Module
+- Requests module: HTTP module.
+- to import: import requests
+- pip install : pip install requests
+- [Requests](https://pypi.org/project/requests/)
+- 🔻Requests functions that i've used:
+    - requests.get():
+    - requests.
 
 
 
